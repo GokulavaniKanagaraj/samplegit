@@ -1,0 +1,50 @@
+Bootstrap
+
+Grid
+
+always each row should add up with 12 columns
+
+four classes 
+xs (for phones - screens less than 768px wide)
+sm (for tablets - screens equal to or greater than 768px wide)
+md (for small laptops - screens equal to or greater than 992px wide)
+lg (for laptops and desktops - screens equal to or greater than 1200px wide)
+<div class="row">
+  <div class="col-*-*"></div> ---------->("col-*-*")---->(size can be mentioned like col-sm-4 which means sm for tablet screen column size is 4 )
+  <div class="col-*-*"></div>
+</div>
+<div class="row">
+  <div class="col-*-*"></div>
+  <div class="col-*-*"></div>
+  <div class="col-*-*"></div>
+</div>
+<div class="row">
+  ...
+</div>
+---------------------------------------------------------------------------------------------------------------------------------------------------
+button
+btn
+.btn-default
+.btn-primary
+.btn-success
+.btn-info
+.btn-warning
+.btn-danger
+.btn-link
+eg
+<button type="button" class=" btn btn-default">hi</button>
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+<a href="#" class="btn btn-info" role="button">Link Button</a>
+
+
+why do we put a # in the href attribute of the link?
+--------------------------------------------------------->
+Since we do not have any page to link it to, and we do not want to get a "404" message, we put # as the link in our examples. It should be a real URL to a specific page.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+The classes that define the different sizes are:
+
+.btn-lg
+.btn-sm
+.btn-xs
+eg: <button type="button" class=" btn btn-defaultbtn-lg">hi</button>
